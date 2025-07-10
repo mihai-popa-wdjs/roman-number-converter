@@ -146,7 +146,22 @@ body::before {
 }
 
 @media (max-width: 600px) {
-  #number-input, #generating-btn {
+  #number-input {
     width: 100%;
+  }
+  #generating-btn {
+    width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  #number-input {
+    width: 100%;
+    margin-left: 21px;
+    font-size: 15px;
+  }
+  #generating-btn {
+    width: 50%;
+    margin-right: 21px;
   }
 }
