@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Number Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app" class="col-md-6 col-4">
+        <h1 id="title">Roman Number Converter</h1>
+        <div id="number">
+            <input type="text" id="number-input" placeholder="Enter a number" />
+            <button type="submit" id="generating-btn">Generate</button>
+        </div>
+        <h4 id="mess">Enter a number between 1 and 3999</h4>
+        <div id="error" class="hidden">Error: </div>
+        <div id="number-display">
+            <h2 id="message" class="hidden">
+                Your roman number is:
+                <h2 id="roman-number" class="hidden">L</h4>
+            </h2>
+        </div>
+        <div class="lds-dual-ring hidden" id="loading"></div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
